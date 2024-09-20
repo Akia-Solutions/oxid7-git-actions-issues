@@ -12,7 +12,7 @@ on:
           - 'PHP8.2/MySQL8.0'
           - 'PHP8.3/MySQL5.7'
           - 'PHP8.3/MySQL8.0'
-        default: 'PHP8.2/MySQL8.0'
+        default: 'PHP8.2/MySQL8.3'
         description: 'Limit to one PHP/MySQL combination'
       use_dev_version:
         type: choice
