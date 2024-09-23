@@ -9,7 +9,7 @@ install_shop_with_modules:
               "oxid-esales/twig-component": "{{ .Data.global.composer.dev_ref }}",
               "oxid-esales/twig-admin-theme": "{{ .Data.global.composer.dev_ref }}",
               "oxid-esales/apex-theme": "{{ .Data.global.composer.dev_ref }}",
-              "oxid-esales/module-template": "dev-main"
+              "oxid-esales/module-template": "dev-b-6.4.x_service_locator"
           },
           "repositories": {
             "oxid-esales/module-template": {
