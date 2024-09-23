@@ -9,12 +9,12 @@ install_shop_with_modules:
               "oxid-esales/twig-component": "{{ .Data.global.composer.dev_ref }}",
               "oxid-esales/twig-admin-theme": "{{ .Data.global.composer.dev_ref }}",
               "oxid-esales/apex-theme": "{{ .Data.global.composer.dev_ref }}",
-              "oxid-esales/module-template": "{{ .Data.global.composer.ref_name }}"
+              "oxid-esales/module-template": "origin/main"
           },
           "repositories": {
             "oxid-esales/module-template": {
               "type": "git",
-              "url": "https://github.com/Akia-Solutions/oxid7-module-action.git"
+              "url": "https://github.com/Akia-Solutions/oxid7-git-actions-issues.git"
             }
           }
       }
